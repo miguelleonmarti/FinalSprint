@@ -40,7 +40,7 @@ public class CounterPresenter implements CounterContract.Presenter {
     Counter counter = router.getCounterFromPreviousScreen();
     if (counter != null) {
       viewModel.counter = counter.getCounter();
-      model.getClicks();
+      viewModel.clicks = model.getClicks();
       view.get().displayData(viewModel);
     }
   }

@@ -37,7 +37,7 @@ public class Repository implements RepositoryContract {
   @Override
   public void add() {
     counterList.add(new Counter(i, 0));
-    i++;
+    setI(getI()+1);
   }
 
   @Override
@@ -62,5 +62,13 @@ public class Repository implements RepositoryContract {
 
   public void setClicks(int clicks) {
     this.clicks = clicks;
+  }
+
+  public int getI() {
+    return i;
+  }
+
+  public void setI(int i) {
+    this.i = i;
   }
 }
