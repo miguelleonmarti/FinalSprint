@@ -47,8 +47,7 @@ public class CounterPresenter implements CounterContract.Presenter {
 
   @Override
   public void suma() {
-    int id = router.getCounterFromPreviousScreen().getId();
-    model.suma(id);
+    model.suma(router.getCounterFromPreviousScreen().getId());
     fetchData();
   }
 }

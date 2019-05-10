@@ -3,28 +3,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".Counter.CounterActivity">
+
+    <TextView
+        android:id="@+id/counterLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/counter_label"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/counterText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="counter"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:text="@string/example_text_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/clicksLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/clicks_label"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/clicksText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="clicks" />
+        android:gravity="center"
+        android:text="@string/example_text_label"
+        android:textAlignment="center"
+        android:textSize="36sp" />
 
     <Button
         android:id="@+id/plusButton"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="+" />
+        android:text="@string/plus_label"
+        android:textSize="60sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
