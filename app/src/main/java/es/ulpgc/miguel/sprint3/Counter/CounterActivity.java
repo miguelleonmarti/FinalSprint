@@ -22,6 +22,7 @@ public class CounterActivity
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_counter);
+    this.setTitle(R.string.detail_label);
 
     plusButton = findViewById(R.id.plusButton);
     counterText = findViewById(R.id.counterText);

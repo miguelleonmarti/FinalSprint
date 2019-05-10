@@ -25,6 +25,7 @@ public class ListActivity
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_list);
+    this.setTitle(R.string.master_label);
 
     plusButton = findViewById(R.id.plusButton);
 

@@ -4,4 +4,6 @@
     <string name="plus_label">+</string>
     <string name="clicks_label">Clicks</string>
     <string name="example_text_label">example</string>
+    <string name="master_label">Master</string>
+    <string name="detail_label">Detail</string>
 </resources>
